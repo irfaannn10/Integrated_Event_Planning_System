@@ -1,0 +1,69 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="WebApplication1.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                <nav class="navbar navbar-dropdown navbar-fixed-top navbar-expand-lg">
+        <div class="navbar-brand">
+            <span class="navbar-logo">
+                <a href="Homepage.aspx">
+                    <img src="./resources/LogoNavbar.png" alt="Mobirise" title="" style="height: 2rem;">
+                </a>
+            </span> 
+
+            <span class="navbar-caption-wrap mbr-section-btn"><a class="navbar-caption text-white display-7" href="https://mobirise.com/extensions/hotelm4/hotel/index.html">
+                    
+                </a></span>
+        </div>
+        &nbsp &nbsp 
+        
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </button>
+    <div style="font-family:sans-serif">
+    <a href ="https://www.goggle.com">Careers</a>
+    &nbsp &nbsp &nbsp 
+    <a href ="https://www.youtube.com">Watch Video</a>
+    &nbsp &nbsp &nbsp 
+    <a href ="https://www.google.com">Our Events</a>
+    </div>
+      <%--<div class="collapse navbar-collapse" id="navbarSupportedContent" >
+            <ul class="navbar-nav nav-dropdown mbr-section-btn" data-app-modern-menu="true"><li class="nav-item dropdown">
+                    <a class="nav-link link text-warning dropdown-toggle display-7" href="#" data-toggle="dropdown-submenu">
+                        Demo Pages</a>
+                <div class="dropdown-menu"><a class="text-warning dropdown-item display-7" href="#">Hotel Website Demo</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/page2.html">Resort Website Demo</a></div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link text-warning display-7" href="#">
+                        Watch Video</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link link text-warning dropdown-toggle display-7" href="#" data-toggle="dropdown-submenu" style="color: black">
+                        Careers</a><%--<div class="dropdown-menu"><a class="text-warning dropdown-item display-7" href="#">Menu</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/headers.html">Headers</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/features.html">Features</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/images-and-videos.html">Images &amp; Videos</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/sliders-and-galleries.html">Sliders &amp; Galleries</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/content.html">Content</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/forms.html">Forms</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/pricing-tables.html">Pricing Tables</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/toggles-and-accordions.html">Toggles &amp; Accordions</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/info.html">Info</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/testimonials-and-teams.html">Testimonials &amp; Teams</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/maps.html">Maps</a><a class="text-warning dropdown-item display-7" href="https://mobirise.com/extensions/hotelm4/hotel/footers.html">Footers</a></div>--%>
+                <%--</li></ul> --%>
+            &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp
+            &nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp&nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp &nbsp  
+          <div class="navbar-buttons mbr-section-btn" style="border-block-color: black"><a class="btn btn-sm btn-white display-4" href="Webform1.aspx">
+                    LOGIN </a></div>
+      </div>  
+    </nav>
+            </asp:ContentPlaceHolder>
+        </div>
+    </form>
+</body>
+</html>
